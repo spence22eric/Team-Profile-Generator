@@ -10,7 +10,7 @@ function employeeInfo(employees) {
             {
                 type: 'text',
                 name: 'name',
-                message: 'What is your name?'
+                message: 'Please enter a name.'
             },
             {
                 type: 'list',
@@ -84,7 +84,7 @@ function generateHTML(employees) {
             <header class="bg-danger text-light text-center pt-3">
                 <h1>My Team</h1>
             </header>
-            <div class="row">
+            <div class="row justify-content-around">
             ${html}
             </div>
         </body>    
